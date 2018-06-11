@@ -26,3 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # Angular-elements
+
+Paste the following code in the body to use this element:
+
+```HTML
+  <app-counter counter="10"></app-counter>
+  <script type="text/javascript" src="https://rawgit.com/Koen967/Angular-elements/master/elements/counter.js"></script>
+```
