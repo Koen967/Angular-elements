@@ -30,6 +30,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Paste the following code in the body to use this element:
 
 ```HTML
-  <app-counter [counter]="10"></app-counter>
+  <app-counter counter="10"></app-counter>
   <script type="text/javascript" src="https://rawgit.com/Koen967/Angular-elements/master/elements/counter.js"></script>
 ```
