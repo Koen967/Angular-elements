@@ -33,3 +33,4 @@ Paste the following code in the body to use this element:
   <app-counter counter="10"></app-counter>
   <script type="text/javascript" src="https://rawgit.com/Koen967/Angular-elements/master/elements/counter.js"></script>
 ```
+Angular elements is not yet at a comfortable stage to use. I've found that with the implementations that I've tried that there are problems with loading multiple elements in one project. There is also an issue with loading elements in pages that are deeper than the index.html. This is because the javascript script that is needed to display the element won't get loaded. And finally when bundeling the component to export as element. You also include the zone.js file. This'll cause for errors in other Angular applications because Angular will try to load this script twice. Once for the app itself and once for every element you try to add.
